@@ -1,7 +1,6 @@
 ﻿Write-Output "This Script Automates the Auto-Logon Registry Edits."
 Start-Sleep -s 1
 # Written by Caleb F.
-# For use by AHTPOS staff ONLY!
 $RegPath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"
 Set-ItemProperty $RegPath "AutoAdminLogon" -Value "1" -type String
 

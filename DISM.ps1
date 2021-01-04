@@ -1,6 +1,5 @@
 ﻿# DISM.ps1
 # Written by Caleb F.
-# For use by AHTPOS staff ONLY!
 Write-Output "This is the script to activate Windows Server 2016"
 Start-Sleep -s 2
 Write-Output "Enter the license key when prompted"
