@@ -1,6 +1,6 @@
 # Name: memusage.ps1
 # Created on: March 10, 2022
-# Updated on: March 24, 2022
+# Updated on: March 10, 2022
 # Created by: Caleb Farrell<caleb.farrell@introhive.com>
 # Description: This script is for use with Intune Endpoint Analtics and Proactive Remediation. Provides a readout of the current memory used in percentage.
 #         If the memory usage is above 85.5% it will raise a warning in Intune otherwise will exit as normal.
